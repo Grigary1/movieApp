@@ -25,7 +25,8 @@ public class DashboardActivity extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Intent ob=new Intent(getApplicationContext(),)
+                Intent ob=new Intent(getApplicationContext(), AddMoviesActivity.class);
+                startActivity(ob);
             }
         });
         b2.setOnClickListener(new View.OnClickListener() {
@@ -43,8 +44,8 @@ public class DashboardActivity extends AppCompatActivity {
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ob=new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(ob);
+                Intent ob3=new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(ob3);
             }
         });
     }
