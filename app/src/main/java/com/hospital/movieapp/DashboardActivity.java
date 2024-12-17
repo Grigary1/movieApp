@@ -38,7 +38,8 @@ public class DashboardActivity extends AppCompatActivity {
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Intent ob=new Intent(getApplicationContext(),)
+                Intent ob2=new Intent(getApplicationContext(), ViewMoviesActivity.class);
+                startActivity(ob2);
             }
         });
         b4.setOnClickListener(new View.OnClickListener() {
